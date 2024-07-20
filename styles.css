@@ -21,8 +21,9 @@
 .container3 {
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center;
 }
+
 
 ul {
     display: flex;
@@ -100,4 +101,11 @@ div {
     font-weight: bolder;
     color: #1F2937;
     justify-content: center;
+}
+
+img {
+    padding: 30px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
 }
