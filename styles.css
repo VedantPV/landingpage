@@ -18,6 +18,12 @@
     
 }
 
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
 ul {
     display: flex;
     list-style-type: none;
@@ -66,8 +72,32 @@ div {
 }
 
 .subtext {
+    display: flex;
     margin-left: 400px;
     width: 300px;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.button1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 12px;
+    margin-top: 10px;
+    
+    display: flex;
+    margin-left: 400px;
+    background-color: #3882F6;
+    color: white;
+    margin-bottom: 100px;
+}
+
+#h2var1 {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    justify-content: center;
 }
