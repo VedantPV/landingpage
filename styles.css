@@ -23,10 +23,18 @@ html {
 }
 
 .container3 {
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
+}
+
+.container3V2 {
+    padding: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .container4 {
@@ -150,4 +158,11 @@ img {
     color: #1F2937;
     
     
+}
+
+.actionbox {
+    width: 1500px;
+    height: 250px;
+    background-color: #3882F6;
+    border-radius: 12px; 
 }
