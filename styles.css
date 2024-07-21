@@ -22,6 +22,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 50px;
 }
 
 
@@ -104,8 +105,11 @@ div {
 }
 
 img {
-    padding: 30px;
+    /*padding: 30px;*/
+    display: flex;
+    
     max-width: 200px;
     max-height: 200px;
     border-radius: 50%;
+    border: solid blue;
 }
