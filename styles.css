@@ -12,6 +12,14 @@ html {
     
 }
 
+.container1V2 {
+    display: flex;
+    background-color: #1f2937;
+    margin: 0;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
 .container2 {
     display: flex;
     background-color: #1f2937;
@@ -23,7 +31,6 @@ html {
 }
 
 .container3 {
-    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -34,8 +41,14 @@ html {
     padding: 200px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    
+    
     
 }
+
+
+
 
 .container4 {
     display: flex;
@@ -81,6 +94,16 @@ div {
     justify-content: flex-start;
 }
 
+.actionboxdiv {
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+    
+
+
 .pictureboxdiv {
     display: flex;
     color: white;
@@ -115,6 +138,19 @@ div {
     margin-bottom: 100px;
 }
 
+.button2 {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    border:  2px solid white;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    width: 100px;
+}
+
+
 #h2var1 {
     display: flex;
     font-size: 36px;
@@ -141,6 +177,7 @@ img {
     color: black;
     max-width: 200px;
     padding-bottom: 200px;
+    font-size: 18px;
 }
 
 .quote {
@@ -166,3 +203,4 @@ img {
     background-color: #3882F6;
     border-radius: 12px; 
 }
+
