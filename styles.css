@@ -17,7 +17,9 @@ html {
     background-color: #1f2937;
     margin: 0;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 30px;
+    justify-content: center;
+    color: #F9FAF8;
 }
 
 .container2 {
