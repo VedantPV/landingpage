@@ -108,12 +108,12 @@ div {
 
 .pictureboxdiv {
     display: flex;
-    color: white;
+    
     justify-content: center;
     margin-right: 150px;
     height: 200px;
     width: 500px;
-    background-color: gray;
+ 
     
 }
 
@@ -163,7 +163,7 @@ div {
 
 
 
-img {
+.quadimg {
     /*padding: 30px;*/
     display: flex;
     max-width: 200px;
